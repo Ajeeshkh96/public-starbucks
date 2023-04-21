@@ -1,0 +1,300 @@
+/*navbar*/
+.navbar-brand img
+{
+  height: 50px;
+}
+
+.nav-link img
+{
+  height: 30px;
+}
+
+/*hero section*/
+
+.first-row
+{
+  background-color: #d4e9e2;
+  text-align: center;
+}
+
+.first-row .right
+{
+  background-color: #d4e9e2;
+}
+
+.first-row .left img
+{
+  width: 100%;
+}
+
+.first-row h1
+{
+  font-weight: 600;
+  font-size: 28px;
+  color: #1e3932;
+}
+
+.first-row p
+{
+  color: #1e3932;
+  font-size: 20px;
+
+}
+
+
+/*cup section*/
+
+.starbucks-cup
+{
+  background-color: #d4e9e2;
+  text-align: center;
+}
+
+.starbucks-cup .left
+{
+  background-color: #d4e9e2;
+}
+
+.starbucks-cup .right img
+{
+  width: 100%;
+}
+
+.starbucks-cup h1
+{
+  font-weight: 600;
+  font-size: 28px;
+  color: #1e3932;
+
+}
+
+.starbucks-cup p
+{
+  color: #1e3932;
+  font-size: 20px;
+
+}
+
+/*cola section*/
+
+.starbucks-cola
+{
+  background-color: #f6bfd9;
+  text-align: center;
+}
+
+.starbucks-cola .right
+{
+  background-color: #f6bfd9;
+}
+
+.starbucks-cola .left img
+{
+  width: 100%;
+}
+
+.starbucks-cola h1
+{
+  font-weight: 600;
+  font-size: 28px;
+  color: #1e3932;
+
+}
+
+.starbucks-cola p
+{
+  color: #1e3932;
+  font-size: 20px;
+
+}
+
+/* biscuits section */
+
+.starbucks-biscuits
+{
+  background-color: #fff4d4;
+  text-align: center;
+}
+
+.starbucks-biscuits .left
+{
+  background-color: #fff4d4;
+}
+
+.starbucks-biscuits .right img
+{
+  width: 100%;
+}
+
+.starbucks-biscuits h1
+{
+  font-weight: 600;
+  font-size: 28px;
+  color: #1e3932;
+
+}
+
+.starbucks-biscuits p
+{
+  color: #1e3932;
+  font-size: 20px;
+
+}
+
+
+/* hazelnut section */
+
+.starbucks-hazelnut
+{
+  background-color: #d4e9e2;
+  text-align: center;
+}
+
+.starbucks-hazelnut .right
+{
+  background-color: #d4e9e2;
+}
+
+.starbucks-hazelnut .left img
+{
+  width: 100%;
+}
+
+.starbucks-hazelnut h1
+{
+  font-weight: 600;
+  font-size: 28px;
+  color: #1e3932;
+
+}
+
+.starbucks-hazelnut p
+{
+  color: #1e3932;
+  font-size: 20px;
+
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 1023px) {
+  .item {
+    display: none;
+    padding: 40px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  .accordion-item{
+    display: block;
+    /* padding: 40px; */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .accordion-item {
+    display: none;
+    /* padding: 20px; */
+  }
+  .item
+  {
+    padding: 20px;
+    display: block;
+    display: inline-block;
+    /* font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif; */
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .item {
+    display: none;
+    padding: 40px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  .accordion-item{
+    display: block;
+    /* padding: 40px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .accordion-item {
+    display: none;
+    /* padding: 20px; */
+  }
+  .item
+  {
+    padding: 20px;
+    display: block;
+    display: inline-block;
+    /* font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif; */
+  }
+}
+
+/* social media icons */
+
+.media-icons a
+{
+  text-decoration: none;
+}
+
+.media-icons li
+{
+  list-style-type: none;
+}
+
+.media-icons img
+{
+  height: 30px;
+  width: 30px;
+  margin: 30px 0px 0px 30px;
+}
+
+/* store rewards */
+
+.py5 {
+  padding-top: 50px!important;
+  padding-bottom: 50px!important;
+}
+
+.justify-center {
+  justify-content: center!important;
+}
+.flex {
+  display: flex!important;
+}
+
+/* basic tags */
+
+.item ul
+{
+  list-style-type: none;
+}
+
+.item a
+{
+  text-decoration: none;
+  color: black;
+  line-height: 2.5rem;
+}
+
+.accordion-item ul
+{
+  list-style-type: none;
+}
+
+.accordion-item a
+{
+  text-decoration: none;
+  color: black;
+  line-height: 2.5rem;
+}
+
+
+/* privacy */
+
+.privacy a
+{
+  text-decoration: none;
+  color: black;
+}
