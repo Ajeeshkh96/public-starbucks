@@ -298,3 +298,9 @@
   text-decoration: none;
   color: black;
 }
+
+.img-fluid
+{
+  width: 500px !important;
+  height: 500px !important;
+}
